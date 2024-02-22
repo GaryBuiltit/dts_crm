@@ -1,12 +1,17 @@
 import "./output.css";
 import Navbar from "./components/navbar";
-import Sellers from "./routes/Sellers";
+import { Outlet } from "react-router-dom";
+import { createContext } from "react";
 
-function App() {
+export const userContext = createContext();
+
+function App(user) {
   return (
     <div className="h-screen bg-gray-200">
-      <Navbar />
-      <Sellers />
+      <userContext.Provider value={user}>
+        <Navbar />
+        <Outlet />
+      </userContext.Provider>
     </div>
   );
 }

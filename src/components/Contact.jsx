@@ -6,8 +6,10 @@ const Contact = (props) => {
     <tr className="hover">
       <th>{props.index}</th>
       <td>{props.name}</td>
-      <td>{props.phone}</td>
+      <td>{props.phone1}</td>
+      <td>{props.phone2}</td>
       <td>{props.lastPurchase}</td>
+      <td>{props.notes}</td>
       <td>
         <button className="btn btn-active btn-link text-blue-600">
           details

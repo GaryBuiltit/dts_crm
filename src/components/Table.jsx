@@ -20,31 +20,31 @@ export default function Table() {
           <Contact
             index="1"
             name="John Mcdonald"
-            phone="111-333-4567"
+            phone1="111-333-4567"
             email="1@mail.com"
           />
           <Contact
             index="1"
             name="John"
-            phone="111-333-4567"
+            phone1="111-333-4567"
             email="1@mail.com"
           />
           <Contact
             index="1"
             name="John"
-            phone="111-333-4567"
+            phone1="111-333-4567"
             email="1@mail.com"
           />
           <Contact
             index="1"
             name="John"
-            phone="111-333-4567"
+            phone1="111-333-4567"
             email="1@mail.com"
           />
           <Contact
             index="1"
             name="John"
-            phone="111-333-4567"
+            phone1="111-333-4567"
             email="1@mail.com"
           />
         </tbody>
